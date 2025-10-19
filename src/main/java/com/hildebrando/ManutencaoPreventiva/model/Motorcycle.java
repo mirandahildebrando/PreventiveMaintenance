@@ -9,14 +9,14 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Truck extends Vehicle implements MaintenancePlan {
+public class Motorcycle extends Vehicle implements MaintenancePlan {
 
-    private Integer axes;
+    private Integer cylinderCapacity;
 
     @Override
     public Double calculateMaintenanceInterval() {
-        // Example implementation for Truck
-        return (double) 15000; // Trucks require maintenance every 8000 km
+
+        return (double) 5000;
     }
 
 }

@@ -16,10 +16,10 @@ public abstract class Vehicle {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String mark;
-    private String model;
-    private Double currentMileage;
+    protected Long id;
+    protected String mark;
+    protected String model;
+    protected Double currentMileage;
 
 
 
