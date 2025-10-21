@@ -1,4 +1,4 @@
-package com.hildebrando.ManutencaoPreventiva.model;
+package com.hildebrando.MaintenancePreventive.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public abstract class Vehicle {
+public abstract class Vehicle implements MaintenancePlan {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

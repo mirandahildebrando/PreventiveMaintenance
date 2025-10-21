@@ -1,10 +1,12 @@
-package com.hildebrando.ManutencaoPreventiva.service;
+package com.hildebrando.MaintenancePreventive.service;
 
 import org.springframework.stereotype.Service;
 
-import com.hildebrando.ManutencaoPreventiva.model.MaintenancePlan;
-import com.hildebrando.ManutencaoPreventiva.model.Vehicle;
-import com.hildebrando.ManutencaoPreventiva.repository.VehicleRepository;
+import com.hildebrando.MaintenancePreventive.model.MaintenancePlan;
+import com.hildebrando.MaintenancePreventive.model.Vehicle;
+import com.hildebrando.MaintenancePreventive.repository.VehicleRepository;
+
+
 
 @Service
 public class VehicleService {

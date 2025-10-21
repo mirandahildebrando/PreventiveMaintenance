@@ -1,4 +1,4 @@
-package com.hildebrando.ManutencaoPreventiva.model;
+package com.hildebrando.MaintenancePreventive.model;
 
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
